@@ -36,7 +36,7 @@ To get started with running the automated tests, follow these steps:
 1. Clone this repository to your local machine: `git clone <repository-url>`
 2. Navigate to the project directory: `cd userPath/Demoqa`
 3. Install the project dependencies: `npm install`
-4. To run the test with UI interface run `npx cypress open`, choose browser and then choose `ui` or `api`
+4. To run the test with UI interface run `npx cypress open`, choose browser and
 
 ## Note: some tests are failing
 The api test may fall due to server response time. Setting limitation for response doesn't help.
