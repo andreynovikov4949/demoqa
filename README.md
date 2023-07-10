@@ -1,4 +1,4 @@
-# demoqa
+# DemoQa
 
 This repository contains a suite of automated tests written using Cypress and TypeScript. These tests are designed to validate the functionality of Demoqa application and ensure its quality. Also API of the https://emissions-api.org/ was checked
 
@@ -36,8 +36,9 @@ To get started with running the automated tests, follow these steps:
 1. Clone this repository to your local machine: `git clone <repository-url>`
 2. Navigate to the project directory: `cd userPath/Demoqa`
 3. Install the project dependencies: `npm install`
-4. To run the test with UI interface run `npx cypress open`, choose browser and
+4. To run the test with UI interface run `npx cypress open`, choose browser and choose `ui` or `api`
 
 ## Note: some tests are failing
 The api test may fall due to server response time. Setting limitation for response doesn't help.
+
 The first UI test fails due to inability to click *Add to collection button*. This may occur due to add that is shown on the screen like `Securepubads.g.doubleclick.net`
